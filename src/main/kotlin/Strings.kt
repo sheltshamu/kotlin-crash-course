@@ -12,4 +12,12 @@ fun main(){
     val msg = "Name: $name, Age: $age"
     println(msg)
 
+    var email = """
+        Hello %s
+        How
+        Are
+        You
+    """.trimIndent()
+
+    println(email.format("Shelton"))
 }
