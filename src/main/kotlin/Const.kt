@@ -1,4 +1,4 @@
- val PI = getPIValue()
+ val PI = getPiValue()
 
 
 fun main() {
@@ -9,7 +9,7 @@ fun main() {
     var age = 10 // mutable
 //    age = 25
 
-    println(getPIValue())
+    println(getPiValue())
 }
 
-fun getPIValue() : Double =  3.14
+fun getPiValue() : Double =  3.14
