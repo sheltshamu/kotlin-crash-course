@@ -1,10 +1,15 @@
-const val PI = 3.14; // static final
+ val PI = getPIValue()
+
 
 fun main() {
 
-    val name = "Shelton" // final
+    val name = "Shelton" // final || immutable
 //    name ="Owen"
 
-    var age = 10
+    var age = 10 // mutable
 //    age = 25
+
+    println(getPIValue())
 }
+
+fun getPIValue() : Double =  3.14
