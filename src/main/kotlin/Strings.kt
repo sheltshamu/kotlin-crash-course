@@ -6,4 +6,10 @@ fun main(){
     println(name.toLowerCase())
     println(name.isEmpty())
     println(name.isNotEmpty())
+
+
+    val age = 15
+    val msg = "Name: $name, Age: $age"
+    println(msg)
+
 }
